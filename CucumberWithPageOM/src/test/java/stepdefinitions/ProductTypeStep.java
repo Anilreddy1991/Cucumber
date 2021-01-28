@@ -29,6 +29,7 @@ public class ProductTypeStep {
 	@And("User select product {string}")
 	public void user_select_product(String text) {
 	    ProductTypePage.selectProduct(text);
+	   
 	}
 
 	@And("User click on view datails")

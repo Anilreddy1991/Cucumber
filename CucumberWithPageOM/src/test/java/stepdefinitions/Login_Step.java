@@ -25,8 +25,8 @@ public class Login_Step {
 	   LoginPage.enterPassword(Password);
 	}
 
-	@And("User click on login button")
-	public void user_click_on_login_button() {
+	@And("User click on {string}")
+	public void user_click_on(String SignIn) {
 	    LoginPage.signIn();
 	}
 	
